@@ -99,33 +99,32 @@ content:
           - Built course game projects in Unity and C#, including a Breakout-style game and a stealth puzzle experience.
           - Designed gameplay logic, level interactions, and player feedback for complete playable prototypes.
 
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: World Wildlife Fund (WWF)
-        sub_title: Eco Intern
-        caption: "Jul 2015, Jul 2019"
-        description: |
-          - Produced documentaries including *Hospital Waste* and *Flick the Switch* to raise awareness about healthcare waste management and energy conservation.
-
-      - layout: right
-        title: Sundas Foundation
-        sub_title: Volunteer
-        caption: "Aug 2019"
-        description: |
-          - Supported patient care and blood donation initiatives, including blood typing activities and community outreach.
-
   - title: Leadership
     layout: list
     content:
+      - layout: right
+        title: Student Life Data Analysis Project
+        sub_title: Team Lead
+        caption: "Sep 2023 - Dec 2023"
+        description: |
+          - Led the project team by organizing the workflow for data collection, cleaning, analysis, and presentation.
+          - Coordinated task ownership and combined team findings into a single narrative, which helped the group deliver a clear data-driven study on student workload and well-being.
+
+      - layout: right
+        title: Unity Game Development Project
+        sub_title: Team Lead
+        caption: "Sep 2024 - Dec 2024"
+        description: |
+          - Directed project planning, feature breakdown, playtesting, and bug-fixing across the team during development.
+          - Kept implementation aligned across gameplay, level design, and polish work, which helped the group ship a complete playable prototype with stronger cohesion and execution.
+
       - layout: right
         title: BSS PTC Football Team
         sub_title: Captain
         caption: "2015 - 2020"
         description: |
-          - Led training and match preparation for inter-school and intra-region tournaments.
-          - Coordinated team strategy and encouraged consistent performance in competitive settings.
+          - Led training sessions, match preparation, and on-field coordination for inter-school and intra-region tournaments.
+          - Organized team strategy and maintained accountability across the squad, which contributed to steadier performance in competitive matches.
 
   - title: Achievements and Interests
     layout: text
