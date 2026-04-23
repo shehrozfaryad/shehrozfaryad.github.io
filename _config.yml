@@ -1,132 +1,153 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: shehrozfaryad/Resume
+# favicon: assets/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-# email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+name: Shehroz Faryad
+title: Computer Science Student | Full-Stack, Systems, and Security
+email: shehrozfaryad@gmail.com
+# email_title: Email
+phone: "+92 300 6446769"
+# phone_title: Phone
+# website:
+# website_title: Web
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+github_username: shehrozfaryad
+linkedin_username: shehrozfaryad
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+# additional_links:
+#   - title: Link name
+#     icon: fab fa-github
+#     url: https://github.com
 
 # Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000"
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+about_title: Professional Summary
+about_profile_image:
+about_content: |
+  Computer Science student at Lahore University of Management Sciences (LUMS) with hands-on experience in full-stack web development, distributed systems, data analysis, game development, and security analytics.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  I enjoy building practical software end-to-end, from backend logic and database design to real-time applications and monitoring pipelines, and I am seeking software engineering opportunities where I can continue to grow in backend, systems, and security-focused development.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+        title: Lahore University of Management Sciences (LUMS)
+        sub_title: BS Computer Science, Minor in Psychology
+        caption: "2021 - 2026"
+        description: |
+          - Relevant coursework: Advanced Programming, Data Structures and Algorithms, Software Engineering, Databases, Game Development, Machine Learning, Data Science, Network Computing, and Operating Systems.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  - title: Technical Skills
+    layout: text
+    content: |
+      - **Languages:** Python, C, C++, C#, SQL, TypeScript
+      - **Frameworks and Libraries:** MERN, Socket.IO
+      - **Tools and Platforms:** Git, Docker, ELK Stack, Wazuh, Suricata, MATLAB
+      - **Other:** Object-oriented programming, distributed systems, LLMs, Photoshop, Canva, MS Office
+
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        title: Anomalous Login Detection and Prevention System
+        sub_title: ELK, Wazuh, Suricata
+        caption: "Sep 2025 - Present"
+        link: https://github.com/Mustafa-Hussain-source/P06_Anomalous-Login-Detection-ELK
+        link_text: GitHub Repository
+        description: |
+          - Developing a security analytics platform to detect anomalous logins and support prevention workflows.
+          - Integrating SIEM pipelines, IDS/IPS tooling, and adaptive ML-driven detection for suspicious activity analysis.
+
+      - layout: left
+        title: Real-Time MERN Applications
+        sub_title: TypeScript, MERN, Socket.IO
+        caption: "Jan 2025 - May 2025"
+        description: |
+          - Built real-time web applications including a multiplayer game and a trading platform.
+          - Implemented event-driven state synchronization and full-stack features across frontend, backend, and data layers.
+
+      - layout: left
+        title: Peer-to-Peer File Sharing System
+        sub_title: Python, Distributed Systems
+        caption: "Jan 2023 - May 2023"
+        description: |
+          - Built a DHT-based peer-to-peer file sharing system with node join and leave handling.
+          - Added replication and fault-tolerance mechanisms to support scalability under dynamic membership.
+
+      - layout: left
+        title: Unity Game Development Projects
+        sub_title: Unity, C#
+        caption: "Sep 2024 - Dec 2024"
+        link: https://github.com/shehrozfaryad/gamedev
+        link_text: GitHub Repository
+        description: |
+          - Built course game projects in Unity and C#, including a Breakout-style game and a stealth puzzle experience.
+          - Designed gameplay logic, level interactions, and player feedback for complete playable prototypes.
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: World Wildlife Fund (WWF)
+        sub_title: Eco Intern
+        caption: "Jul 2015, Jul 2019"
+        description: |
+          - Produced documentaries including *Hospital Waste* and *Flick the Switch* to raise awareness about healthcare waste management and energy conservation.
+
+      - layout: right
+        title: Sundas Foundation
+        sub_title: Volunteer
+        caption: "Aug 2019"
+        description: |
+          - Supported patient care and blood donation initiatives, including blood typing activities and community outreach.
+
+  - title: Leadership
+    layout: list
+    content:
+      - layout: right
+        title: BSS PTC Football Team
+        sub_title: Captain
+        caption: "2015 - 2020"
+        description: |
+          - Led training and match preparation for inter-school and intra-region tournaments.
+          - Coordinated team strategy and encouraged consistent performance in competitive settings.
+
+  - title: Achievements and Interests
+    layout: text
+    content: |
+      - **Academic achievements:** Beaconhouse School System - Palm Tree Campus: O Levels (3 A-stars, 8 As) and A Levels (3 As)
+      - **Interests:** Football, Psychology, Technology, Humanities
 
 # Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
+footer_show_references: false
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+# theme: modern-resume-theme
+# remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
+exclude: [
   "Gemfile",
   "Gemfile.lock",
   "node_modules",
@@ -137,4 +158,4 @@ exclude : [
   "lib/",
   "scripts/",
   "docker-compose.yml",
-  ]
+]
